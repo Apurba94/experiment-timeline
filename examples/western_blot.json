@@ -1,0 +1,12 @@
+{
+  "name": "Western blot",
+  "steps": [
+    {"name": "Load and run gel", "duration": "1h30m"},
+    {"name": "Transfer", "duration": "1h", "hands_on": false},
+    {"name": "Block", "duration": "1h", "hands_on": false, "gap": "10 min"},
+    {"name": "Primary antibody", "duration": "overnight", "hands_on": false},
+    {"name": "Wash 3x", "duration": "30 min"},
+    {"name": "Secondary antibody", "duration": "1 h", "hands_on": false},
+    {"name": "Wash and image", "duration": "45 min"}
+  ]
+}

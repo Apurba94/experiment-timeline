@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "experiment-timeline"
+version = "0.1.0"
+description = "Plan multi-step experiment timelines with incubation times and export to ICS."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "JANIN A APURBA", email = "japurba97@gmail.com"}]
+keywords = ["research", "automation", "reproducibility", "academic"]
+dependencies = []
+
+[project.scripts]
+experiment-timeline = "experiment_timeline.cli:main"
+
+[tool.setuptools]
+packages = ["experiment_timeline"]
